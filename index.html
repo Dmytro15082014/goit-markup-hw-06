@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Five Home Work</title>
+    <title>The Six Home Work</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -71,6 +71,11 @@
             </li>
           </ul>
         </address>
+        <button class="mobile-menu-btn" type="button">
+          <svg class="mobile-icon" width="24" height="24">
+            <use href="./images/icons.svg#mobile-menu-btn"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -145,6 +150,7 @@
           <ul class="team-list">
             <li class="team-list-item">
               <img
+                srcset="./images/team/mark-guerrero@2x.jpg 2x"
                 src="./images/team/mark-guerrero.jpg"
                 alt="Product Designer Photo"
                 width="264"
@@ -187,6 +193,7 @@
             </li>
             <li class="team-list-item">
               <img
+                srcset="./images/team/tom-ford@2x.jpg 2x"
                 src="./images/team/tom-ford.jpg"
                 alt="Frontend Developer Photo"
                 width="264"
@@ -229,6 +236,7 @@
             </li>
             <li class="team-list-item">
               <img
+                srcset="./images/team/camila-garcia@2x.jpg 2x"
                 src="./images/team/camila-garcia.jpg"
                 alt="Marketing Photo"
                 width="264"
@@ -271,6 +279,7 @@
             </li>
             <li class="team-list-item">
               <img
+                srcset="./images/team/daniel-wilson@2x.jpg 2x"
                 src="./images/team/daniel-wilson.jpg"
                 alt="UI Designer Photo"
                 width="264"
@@ -315,7 +324,7 @@
         </div>
       </section>
       <!-- Our Portfolio -->
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -438,7 +447,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-cont">
         <div class="footer-info">
           <a href="./index.html" class="logo footer-logo"
@@ -505,7 +514,7 @@
     </footer>
 
     <!-- backdrop -->
-    <div class="backdrop">
+    <div class="backdrop hidden">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-icon" width="8" height="8">
